@@ -1,0 +1,15 @@
+Package: flatpak
+Title: Flattens directories
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jeremy",
+           family = "Wildfire",
+           role = c("aut", "cre"),
+           email = "jwildfire@gmail.com"
+        )
+Description: Takes nested directories and flattens them. Useful if you want to convert a `src` folder with a complex structure in to the flat `R` folder required for R pacakges. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
